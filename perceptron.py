@@ -14,16 +14,16 @@ def prediction(X, W, b):
 
 def perceptronStep(X, y, W, b, learn_rate = 0.01):
     """
-    Update weights and bias whenever needed.
+    Update weights and bias each time iterating the points.
     
     Parameters:
     ----------
-        X: a n_by_2 numpy 2D array. Each entry represents a set of coordinates. 
+        X: a nx2 numpy 2D array. Each entry represents a set of coordinates. 
            It represents the 0th and 1st column in data.csv.
            
         y: actual labels for the datapoints. It represents the 2nd column in data.csv
         
-        W: a 2_by_1 2D numpy array. Weights for the linear equation.
+        W: a 2x1 2D numpy array. Weights for the linear equation.
         
         b: Bias value for the linear equation.
         
